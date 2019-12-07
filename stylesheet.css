@@ -1,0 +1,84 @@
+* {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+body {
+    background-color: #1d1d1d;
+    margin: 0;
+}
+
+div#container {
+    min-height: 100vh;
+    position: relative;
+}
+
+.center {
+    text-align: center;
+}
+
+h1 {
+    display: inline-block; /* makes hr width of text */
+}
+
+p, a {
+    font-size: 1.3em;
+    transition: color .2s;
+}
+
+a:hover {
+    color: #3085be;
+}
+
+table {
+    margin: 0 auto;
+    margin-bottom: 4%;
+    max-width: 90%;
+}
+
+@keyframes shadow-move {
+    from {box-shadow: 0px 0px #0f0f0f;}
+    to {box-shadow: 25px 25px #0f0f0f;}
+}
+
+img {
+    width: 85%;
+    min-width: 172px;
+    animation-fill-mode: forwards;
+}
+
+img#arm {
+    animation-name: shadow-move;
+    animation-duration: 1s;
+    animation-delay: .6s;
+}
+
+img#shock {
+    animation-name: shadow-move;
+    animation-duration: 1s;
+    animation-delay: 1.3s;
+}
+
+td {
+    padding: 2em;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    padding: .6em;
+}
+
+div#footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: #0f0f0f;
+}
+
+p#footertxt, p#footertxt i {
+    font-size: 1em;
+    color: gray;
+}
