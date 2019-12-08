@@ -82,3 +82,8 @@ p#footertxt, p#footertxt i {
     font-size: 1em;
     color: gray;
 }
+
+p.subtext {
+    color: darkgray;
+    font-size: 1em;
+}
